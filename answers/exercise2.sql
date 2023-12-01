@@ -1,2 +1,2 @@
 SELECT * FROM Students
-WHERE City ~ '(^a | ^c |^s)';
+WHERE City REGEXP '(^a | ^c |^s)';
